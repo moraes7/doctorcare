@@ -24,7 +24,7 @@ function activateMenuAtCurrentSection(section) {
     const sectionHeight = section.offsetHeight
 
     // o topo da seção chegou ou ultrapassou a linha alvo
-    const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+    const sectionTopReachOrPassedTargetline = targetLine >= sectionTop
 
 
     // informações dos dados
@@ -37,7 +37,7 @@ function activateMenuAtCurrentSection(section) {
     const sectionEndsAt = sectionTop + sectionHeight
 
     // o final da seção passou da linha alvo
-    const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
+    const sectionEndPassedTargetine = sectionEndsAt <= targetLine
 
     console.log('O fundo da seção passou da linha?',
     sectionEndPassedTargetLine)
