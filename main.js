@@ -28,7 +28,7 @@ function activateMenuAtCurrentSection(section) {
 
 
     // informações dos dados
-    console.log('O topo da seção chegou ou passou da linha?', sectionTopReachOrPassedTargetLine)
+    console.log('O topo da seção chegou ou passou da linha?',sectionTopReachOrPassedTargetline)
 
 
     // verficar se a base está abaixo da linha alvo
@@ -40,10 +40,10 @@ function activateMenuAtCurrentSection(section) {
     const sectionEndPassedTargetline = sectionEndsAt <= targetLine
 
     console.log('O fundo da seção passou da linha?',
-    sectionEndPassedTargetLine)
+    sectionEndPassedTargetline)
 
     // limites da seção
-    const sectionBoundaries = sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+    const sectionBoundaries = sectionTopReachOrPassedTargetline && !sectionEndPassedTargetline
 
     const sectionId = section.getAttribute('id')
     const menuElement = document
