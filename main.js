@@ -37,7 +37,7 @@ function activateMenuAtCurrentSection(section) {
     const sectionEndsAt = sectionTop + sectionHeight
 
     // o final da seção passou da linha alvo
-    const sectionEndPassedTargetine = sectionEndsAt <= targetLine
+    const sectionEndPassedTargetline = sectionEndsAt <= targetLine
 
     console.log('O fundo da seção passou da linha?',
     sectionEndPassedTargetLine)
